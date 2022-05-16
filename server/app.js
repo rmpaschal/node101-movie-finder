@@ -35,11 +35,10 @@ else{
     res.send('error has occured!')
   })
 }
+})
 
 
 
 
 // When making calls to the OMDB API make sure to append the '&apikey=8730e0e' parameter
-
-module.exports = app;
-})
+module.exports = app
